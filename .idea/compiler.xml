@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
         <module name="config-server" />
+        <module name="api-gateway" />
+        <module name="demo (1) (com.discovery-service.project)" />
+        <module name="demo (2) (com.order.project)" />
         <module name="inventory" />
         <module name="demo" />
         <module name="demo (1) (com.order.project)" />
@@ -23,8 +25,10 @@
       <module name="api-gateway" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="demo (1) (com.discovery-service.project)" options="-parameters" />
       <module name="demo (1) (com.inventory.project)" options="-parameters" />
       <module name="demo (1) (com.order.project)" options="-parameters" />
+      <module name="demo (2) (com.order.project)" options="-parameters" />
       <module name="inventory" options="-parameters" />
     </option>
   </component>
